@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="generator" content="Jmol, see https://www.jmol.org">
-    <meta name="author" content="Creatore di Pagine Web Jmol">
+    <meta name="author" content="Daniele Rapetti">
     <meta name="keywords" content="generated_by_Jmol_Webexport">
     <title>JSMol Test</title>
     <style type="text/css">
@@ -16,9 +16,25 @@
         .section {
             clear: both;
             margin: auto;
-            width: 300px;
+            width: 75%;
             padding: 0.6em 0;
+            min-width: 300px;
         }
+
+        /*
+        @media screen and (orientation: portrait) {
+            .section {
+                width: 100%;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            .section {
+                height: 100%;
+                width: 300px;
+            }
+        }*/
+
 
         .sceneWrapper {
             border: 1px solid gray;
@@ -34,6 +50,8 @@
         .JmolDiv {
             padding: 0.3em 0.5ex;
             font-size: 0.9em;
+            width: 100%;
+            aspect-ratio: 1;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -157,7 +175,7 @@
 
 <body>
     <div id="section_Test" class="section">
-        <div id="Jmol0" class="JmolDiv" style="width:300px; height:300px; background-image:url(Test.png)">
+        <div id="Jmol0" class="JmolDiv" style="background-image:url(Test.png)">
             Jmol0 will appear here.
         </div>
         <div>
